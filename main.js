@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     cards.forEach(card => {
         const logo = card.querySelector('.logo-center');
         
-        // Không xoay - giữ tĩnh ở giữa
+      
         if (logo) {
             logo.style.animation = 'none';
         }
